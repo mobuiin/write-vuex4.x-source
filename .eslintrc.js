@@ -14,5 +14,10 @@ module.exports = {
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
+    '@typescript-eslint/no-explicit-any': 'off',
+    'no-underscore-dangle': 'off',
+    '@typescript-eslint/no-this-alias': 'off',
+    'no-param-reassign': 'off',
+    'consistent-return': 'off',
   },
 };
