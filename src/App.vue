@@ -3,13 +3,13 @@
     <div class="item">
       <p class="title">实现 state</p>
       <p>computed: {{ count }}</p>
-      <p>直接$store获取: {{ this.$store?.state.count }}</p>
+      <p>直接$store获取: {{ this.$store.state.count }}</p>
     </div>
 
     <div class="item">
       <p class="title">实现 getters</p>
       <p>computed: {{ getCount }}</p>
-      <p>直接$store获取: {{ this.$store?.getters.getCount }}</p>
+      <p>直接$store获取: {{ this.$store.getters.getCount }}</p>
     </div>
 
     <div class="item">
