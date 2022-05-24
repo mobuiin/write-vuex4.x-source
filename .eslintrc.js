@@ -19,5 +19,8 @@ module.exports = {
     '@typescript-eslint/no-this-alias': 'off',
     'no-param-reassign': 'off',
     'consistent-return': 'off',
+    'vuejs-accessibility/click-events-have-key-events': 'off',
+    'no-empty-function': 'off',
+    '@typescript-eslint/no-empty-function': 'off',
   },
 };

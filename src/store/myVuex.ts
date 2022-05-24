@@ -84,6 +84,5 @@ export function useStore<S>(): Store<S> {
 
 // 创建生成Store
 export function createStore<S>(options: StoreOptions<S>) {
-  console.log(1111, options);
   return new Store<S>(options);
 }

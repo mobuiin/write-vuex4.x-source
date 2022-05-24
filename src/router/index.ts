@@ -15,6 +15,16 @@ const routes: Array<RouteRecordRaw> = [
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue'),
   },
+  {
+    path: '/learnStore',
+    name: 'learnStore',
+    component: () => import('../views/LearnStore.vue'),
+  },
+  {
+    path: '/autocomplete',
+    name: 'autocomplete',
+    component: () => import('../views/AutoComplete.vue'),
+  },
 ];
 
 const router = createRouter({
